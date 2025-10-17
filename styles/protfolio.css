@@ -7,12 +7,20 @@
 }
 
 /* Shared style */
+.bg-primary {
+    background-color: #FFF8F3;
+}
+
 .text-primary {
     color: #FD6E0A;
 }
 
 .dark-2 {
     color: rgba(71, 71, 71, 1);
+}
+
+.dark-3 {
+    color: #757575;
 }
 
 .btn-primary {
@@ -86,4 +94,41 @@ nav li a {
 
 .banner-dp {
     width: 580px;
+}
+
+/* About Section */
+.about {
+    margin: 130px 157px;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 20px;
+
+}
+
+.about-me {
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 0;
+
+}
+
+.sec-cont {
+    margin-top: 0;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.short {
+    height: 550px;
+    width: 1140px;
+    margin: 130px 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
