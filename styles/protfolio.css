@@ -93,7 +93,16 @@ nav li a {
 }
 
 .banner-dp {
-    width: 580px;
+    height: ;
+    width: 600px;
+    object-position: cover;
+}
+
+/* Main styles */
+.main {
+    max-width: 1140px;
+    /*  margin: 0 auto; */
+    =
 }
 
 /* About Section */
@@ -119,7 +128,7 @@ nav li a {
 
 .info {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 0;
 }
 
