@@ -134,10 +134,87 @@ nav li a {
 
 .short {
     height: 550px;
-    width: 1140px;
-    margin: 130px 230px;
+    width: 1150px;
+    margin: 130px 180px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
+}
+
+/* What i do */
+.skills {
+    text-align: center;
+    padding-left: 300px;
+    margin-left: 50px;
+
+
+}
+
+.sec-title {
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+/* skills-sections-styles */
+main section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.skill {
+    padding: 30px;
+    text-align: justify;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+
+}
+
+/* resume section styles */
+.resume {
+    /* width: 700px; */
+    padding-left: 300px;
+    width: 80%;
+    justify-items: center;
+
+
+}
+
+.section-title {
+    text-align: center;
+}
+
+
+.resume-container {
+    display: flex;
+    gap: 20px;
+}
+
+.experience-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.experience-description,
+.experience-sub-title {
+    color: #757575;
+}
+
+.resume hr {
+    margin: 30px 0px;
+}
+
+.resume-btn {
+    text-align: center;
+    margin: 50px;
+
 }
